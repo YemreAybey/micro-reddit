@@ -1,24 +1,30 @@
-# README
+# Ruby on Rails Tutorial sample application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the micro-reddit application built with rails: active-records
 
-Things you may want to cover:
+For more information [Odin-Micro-Reddit](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
 
-* Ruby version
+## Getting started
 
-* System dependencies
+To get started with the app, clone the repo and then install the needed gems:
 
-* Configuration
+```
+$ bundle install --without production
+```
 
-* Database creation
+Next, migrate the database:
 
-* Database initialization
+```
+$ rails db:migrate
+```
 
-* How to run the test suite
+after that open the rails console in the root directory of the project
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails console
+```
 
-* Deployment instructions
+# Authors
 
-* ...
+* **Yunus Emre Aybey** - [YemreAybey](https://github.com/YemreAybey)
+* **Grace Mugoiri** - [Grace](https://github.com/grace-mugoiri)
